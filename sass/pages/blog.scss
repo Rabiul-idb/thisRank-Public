@@ -57,9 +57,10 @@
 
           .text h4 {
             font-size: 22px;
+             font-family: $--font-family;
             margin-bottom: 0px;
             color:  $--white;
-            font-weight: 700;
+            font-weight: 600;
             overflow-wrap: anywhere;
 
             @include  xl{

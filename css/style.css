@@ -30861,9 +30861,10 @@
 }
 .blog-details-wrapper .blog-post-nav .post-navigation .text h4 {
   font-size: 22px;
+  font-family: "font1", sans-serif;
   margin-bottom: 0px;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   overflow-wrap: anywhere;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
