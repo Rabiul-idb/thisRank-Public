@@ -31778,6 +31778,12 @@
   width: 100%;
   background-color: transparent;
   padding: 25px 30px 40px 30px;
+}
+
+.widget_top_categorie,
+.widget_search,
+.widget_recent_post,
+.widget_tag_cloud {
   border: 1px solid rgba(204, 204, 204, 0.5);
 }
 
@@ -34736,7 +34742,7 @@ ul.children {
 }
 
 .sidebar {
-  padding: 30px;
+  padding: 0 25px;
   border-radius: 20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

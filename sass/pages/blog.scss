@@ -861,7 +861,7 @@
                 width: 100%;
                 background-color: transparent;
          padding: 25px 30px 40px 30px;
-           border: 1px solid rgba(204, 204, 204, 0.5);
+           
         //       @include border-radius(5px);
         //       &.style_1{
         //         background-color: $--seven;
@@ -872,6 +872,16 @@
         //       }
           }
       }
+
+      .widget_top_categorie,
+      .widget_search,
+      .widget_recent_post,
+      .widget_tag_cloud{
+        border: 1px solid rgba(204, 204, 204, 0.5);
+      }
+
+
+
       .search-form{
         margin-top: 24px;
         width: 100%;
