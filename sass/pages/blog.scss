@@ -42,7 +42,7 @@
             }
           }
 
-            .text span{
+            .text a{
                 font-family: $--font-family;
                 font-weight: 400;
                 font-size: 16px;
@@ -74,10 +74,10 @@
               font-size: 18px;
             }
             @include  sm{
-              font-size: 16px;
+              font-size: 18px;
             }
             @include  xs{
-              font-size: 14px;
+              font-size: 18px;
             }
             @include  xxs{
               display: none;
@@ -105,10 +105,10 @@
           background: rgb(204, 204, 204);
 
           @include xs{
-            height: 150px;
+            height: 120px;
           }
           @include xxs{
-            height: 95px;
+            height: 75px;
           }
         }
     }
@@ -140,6 +140,10 @@
             padding: 10px;
             background-color: $--p4;
             @include border-radius(5px);
+
+            @include xxs{
+                gap: 12px;
+            }
             
             
             a {
@@ -147,6 +151,10 @@
                 font-family: $--font-family;
                 font-weight: 400;
                 font-size: 16px;
+
+                @include xxs{
+                    font-size: 14px;
+                }
             }
             .author-img,
             .blog-category,
@@ -194,6 +202,20 @@
                     font-weight: 700;
                     font-size: 36px;
                     color: $--white;
+
+                    @include lg{
+                        font-size: 32px;
+                    }
+                    @include md{
+                        font-size: 32px;
+                    }
+                    @include sm{
+                        font-size: 30px;
+                    }
+
+                    @include xxs{
+                        font-size: 26px;
+                    }
                 }
 
             }
@@ -326,12 +348,46 @@
             strong{
                 font-size: 30px;
                 font-weight: 700;
+
+                @include lg{
+                    font-size: 26px;
+                }
+                @include md{
+                    font-size: 26px;
+                }
+                @include sm{
+                    font-size: 24px;
+                }
             }
 
             .imgs{
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+
+                @include xs{
+                    flex-direction: column;
+                    gap: 20px;
+                }
+
+                img{
+                     @include xl{
+                     max-width: 45%;
+                    }
+                     @include lg{
+                     max-width: 45%;
+                    }
+                     @include md{
+                     max-width: 45%;
+                    }
+                    @include sm{
+                    max-width: 45%;
+                   }
+                    @include xs{
+                    max-width: 100%;
+                   }
+                }
+                }
             }
         }
 
@@ -345,7 +401,7 @@
             @include nesthub{ 
                 gap: 20px;
             }
-            @include md{
+            @include sm{
                 gap: 15px;
                  grid-template-columns: repeat(1, 1fr);
             }
@@ -373,7 +429,7 @@
         }
     }
 
-}
+
 
 .post-gallery{
     overflow: hidden;
@@ -451,19 +507,30 @@
     }
 }
 
-blockquote{
+.author-info{
     @include flex(row, space-between, center);
     padding: 60px;
     gap: 30px;
     @include border-radius(5px);
     background-color: $--seven;
     border: 1px solid rgba(204, 204, 204, 0.5);
+
+    @include lg{
+        padding: 30px;
+    }
+    @include md{
+        padding: 30px;
+    }
     
-    .user_profile{
+    .author-thumb{
         width: 88px;
         height: 88px;
         position: relative;
         @include border-radius(50%);
+
+        @include sm{
+            margin: auto;
+        }
             img{
                 width: 100%;
                 @include border-radius(50%);
@@ -489,8 +556,15 @@ blockquote{
                 
             }
         }
-        .contains{
+        .author-text{
             width: calc(100% - 90px);
+
+            @include sm{
+                 width: calc(100% - 50px);
+            }
+            @include xs{
+                width: 100%;
+            }
         }
         h3{
             font-family: $--third-family;
@@ -498,6 +572,19 @@ blockquote{
             font-size: 26px;
             text-transform: capitalize;
             color: $--white;
+
+            @include lg{
+                font-size: 22px;
+            }
+            @include md{
+                font-size: 22px;
+            }
+            @include sm{
+                font-size: 24px;
+            }
+            @include xxs{
+                font-size: 22px;
+            }
         }
         p{
             font-family: $--font-family;
@@ -516,74 +603,86 @@ blockquote{
                 width: 100% !important;
             }
         }
-    }
-    .uncover_blogging{
-        .image{
-            width: 100%;
-            height: 327px;
-            @include border-radius(5px);
-            img{
-                @include border-radius(5px);
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-        }
-    }
-    .help_desk{
-        background-image: url(../image/blog/blog5.png);
+}
+
+.uncover_blogging{
+    .image{
         width: 100%;
-        height: 345px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        height: 327px;
         @include border-radius(5px);
-        position: relative;
-        .overly{
+        img{
+            @include border-radius(5px);
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, #000 50%, rgba(139, 46, 21, 0) 100%);
-            @include flex(column, center, flex-start);
-            gap: 37px;
-            padding: 40px;
-            @include border-radius(5px);
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            h2{
-                font-family: $--third-family;
-                font-weight: 700;
-                font-size: 30px;
-                text-transform: capitalize;
-                color: $--white;
-            }
-            
+            object-fit: cover;
         }
     }
-    .pre_next_btn_area{
-        @include flex(row, space-between, center);
-        gap: 30px;
-        flex-wrap: wrap;
-        border-top: 1px solid $--two;
-        border-bottom: 1px solid $--two;
-        padding: 30px 0px;
-        .pre_wrapper{
-            a{
-                font-family: $--font-family;
-                font-weight: 400;
-                font-size: 16px;
-                color: $--white;
-                @include transition(0.4s);
-                span{
-                    margin: 0px 8px;
-                }
-                    &:hover{
-                        color: $--p5;
-                    }
+}
+.help_desk{
+    background-image: url(../image/blog/blog5.png);
+    width: 100%;
+    height: 345px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include border-radius(5px);
+    position: relative;
+    .overly{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, #000 50%, rgba(139, 46, 21, 0) 100%);
+        @include flex(column, center, flex-start);
+        gap: 37px;
+        padding: 40px;
+        @include border-radius(5px);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        h2{
+            font-family: $--third-family;
+            font-weight: 700;
+            font-size: 30px;
+            text-transform: capitalize;
+            color: $--white;
+
+            @include sm{
+                font-size: 26px;
+            }
+            @include xs{
+                font-size: 24px;
+            }
+
+            @include xxs{
+                font-size: 22px;
+            }
+        }
+        
+    }
+}
+.pre_next_btn_area{
+    @include flex(row, space-between, center);
+    gap: 30px;
+    flex-wrap: wrap;
+    border-top: 1px solid $--two;
+    border-bottom: 1px solid $--two;
+    padding: 30px 0px;
+    .pre_wrapper{
+        a{
+            font-family: $--font-family;
+            font-weight: 400;
+            font-size: 16px;
+            color: $--white;
+            @include transition(0.4s);
+            span{
+                margin: 0px 8px;
+            }
+                &:hover{
+                    color: $--p5;
                 }
             }
         }
-        .feture_blog_area{
+}
+.feture_blog_area{
             .feture_blog{
                 padding: 40px 69px 40px 40px;
 
@@ -952,35 +1051,36 @@ blockquote{
         }
        }
 /* post comment start*/
-     .post-comments{
-              .commets-avatar{
-                  width: 80px !important;
-                  height: 80px;
-                  img{
-                      width: 100%;
-                      height: 100%;
-                      object-fit: cover;
-                  }
-              }
-              .comments-text{
-                  width: calc(100% - 80px);
-              }
-                  h2{
-                    font-family: $--third-family;
-                    font-weight: 700;
-                    font-size: 26px;
-                    text-transform: capitalize;
-                    color: $--white;
-                  }
-                  ul{
-                      padding: 0;
-                      @include flex(column, flex-start, flex-start);
-                      gap: 44px ;
-                      li{
-                        border-bottom: 1px solid rgba(204, 204, 204, 0.5);
-                          padding-bottom: 34px;
-                      }
-                  }
+    .post-comments{
+            .commets-avatar{
+                width: 80px !important;
+                height: 80px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .comments-text{
+                width: calc(100% - 80px);
+            }
+            h2{
+            font-family: $--third-family;
+            font-weight: 700;
+            font-size: 26px;
+            text-transform: capitalize;
+            color: $--white;
+            
+            }
+            ul{
+                padding: 0;
+                @include flex(column, flex-start, flex-start);
+                gap: 44px ;
+                li{
+                border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+                    padding-bottom: 34px;
+                }
+            }
               
               .comments-box{
                   @include flex(row, center, flex-start);
@@ -1012,6 +1112,10 @@ blockquote{
                         font-size: 24px;
                         text-transform: capitalize;
                         color: $--white;
+
+                        @include xs{
+                            font-size: 22px;
+                        }
                       }
                       p{
                         font-family: $--font6;
@@ -1026,85 +1130,95 @@ blockquote{
                 font-size: 16px;
                 color: $--white;
                }
-              }
-  /* post comment end*/
+    }
 
 
-          .post-comments-form{
-            max-width: 620px;
-            width: 100%;
-                  .comment-respond{
-                      h2{
-                        font-family: $--third-family;
-                        font-weight: 700;
-                        font-size: 36px;
-                        color: $--white;
-                      }
-                              .contacts-name{
-                                      width: 100%;
-                                  input{
-                                      width: 100%;
-                                      border: 1px solid rgba(193, 193, 193, 0.5);
-                                      height: 54px;
-                                      outline: none;
-                                      padding: 15px 24px;
-                                      @include border-radius(5px);
-                                      background-color: transparent;
-                                      font-family: $--font-family;
-                                      font-weight: 400;
-                                      font-size: 16px;
-                                      color: $--white;
-                                      &::placeholder{
-                                        font-family: $--font-family;
-                                        font-weight: 400;
-                                        font-size: 16px;
-                                        color: $--white;
-                                      }
-}
-                              }
-                              .contacts-email{
-                                      width: 100%;
-                                  input{
-                                      width: 100%;
-                                      border: 1px solid rgba(193, 193, 193, 0.5);
-                                      height: 54px;
-                                      outline: none;
-                                      padding-left: 20px;
-                                      @include border-radius(5px);
-                                      background-color: transparent;
-                                      font-family: $--font-family;
-                                      font-weight: 400;
-                                      font-size: 16px;
-                                      color: $--white;
-                                      &::placeholder{
-                                        font-family: $--font-family;
-                                        font-weight: 400;
-                                        font-size: 16px;
-                                        color: $--white;
-                                      }
-                                  }
-                              }
-                          .contacts-message{
-                              textarea{
-                              width: 100%;
-                              outline: none;
-                              padding: 15px 24px;
-                              border: 1px solid rgba(193, 193, 193, 0.5);
-                                border-radius: 5px;
-                                height: 109px;
-                                background-color: transparent;
-                                font-family: $--font-family;
-                                font-weight: 400;
-                                font-size: 16px;
-                                color: $--white;
-                                &::placeholder{
-                                    font-family: $--font-family;
-                                    font-weight: 400;
-                                    font-size: 16px;
-                                    color: $--white;
-                                  }
-                          }
-                          }
-                      
-                  }
+ /* post comment end*/
+
+.post-comments-form{
+    max-width: 620px;
+    width: 100%;
+
+    .comment-respond{
+        h2{
+        font-family: $--third-family;
+        font-weight: 700;
+        font-size: 36px;
+        color: $--white;
+
+        @include md{
+            font-size: 30px;
+        }
+        @include sm{
+            font-size: 26px;
+        }
+
+        }
+        .contacts-name{
+                width: 100%;
+            input{
+                width: 100%;
+                border: 1px solid rgba(193, 193, 193, 0.5);
+                height: 54px;
+                outline: none;
+                padding: 15px 24px;
+                @include border-radius(5px);
+                background-color: transparent;
+                font-family: $--font-family;
+                font-weight: 400;
+                font-size: 16px;
+                color: $--white;
+                &::placeholder{
+                font-family: $--font-family;
+                font-weight: 400;
+                font-size: 16px;
+                color: $--white;
                 }
+}
+        }
+        .contacts-email{
+                width: 100%;
+            input{
+                width: 100%;
+                border: 1px solid rgba(193, 193, 193, 0.5);
+                height: 54px;
+                outline: none;
+                padding-left: 20px;
+                @include border-radius(5px);
+                background-color: transparent;
+                font-family: $--font-family;
+                font-weight: 400;
+                font-size: 16px;
+                color: $--white;
+                &::placeholder{
+                font-family: $--font-family;
+                font-weight: 400;
+                font-size: 16px;
+                color: $--white;
+                }
+            }
+        }
+        .contacts-message{
+            textarea{
+            width: 100%;
+            outline: none;
+            padding: 15px 24px;
+            border: 1px solid rgba(193, 193, 193, 0.5);
+            border-radius: 5px;
+            height: 109px;
+            background-color: transparent;
+            font-family: $--font-family;
+            font-weight: 400;
+            font-size: 16px;
+            color: $--white;
+            &::placeholder{
+                font-family: $--font-family;
+                font-weight: 400;
+                font-size: 16px;
+                color: $--white;
+                }
+        }
+        }
+        
+    }
+}

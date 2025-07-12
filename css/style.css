@@ -30849,14 +30849,14 @@
     display: none;
   }
 }
-.blog-details-wrapper .blog-post-nav .post-navigation .text span {
+.blog-details-wrapper .blog-post-nav .post-navigation .text a {
   font-family: "font1", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
   transition: all 0.4s ease;
 }
-.blog-details-wrapper .blog-post-nav .post-navigation .text span:hover {
+.blog-details-wrapper .blog-post-nav .post-navigation .text a:hover {
   color: #cda64e;
 }
 .blog-details-wrapper .blog-post-nav .post-navigation .text h4 {
@@ -30884,12 +30884,12 @@
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .blog-details-wrapper .blog-post-nav .post-navigation .text h4 {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 576px) {
   .blog-details-wrapper .blog-post-nav .post-navigation .text h4 {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 479px) {
@@ -30916,12 +30916,12 @@
 }
 @media only screen and (min-width: 0px) and (max-width: 576px) {
   .blog-details-wrapper .blog-post-nav .divider {
-    height: 150px;
+    height: 120px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 479px) {
   .blog-details-wrapper .blog-post-nav .divider {
-    height: 95px;
+    height: 75px;
   }
 }
 
@@ -30951,11 +30951,21 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .single-post-item.format-image .post-meta {
+    gap: 12px;
+  }
+}
 .single-post-item.format-image .post-meta a {
   color: #fff;
   font-family: "font1", sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .single-post-item.format-image .post-meta a {
+    font-size: 14px;
+  }
 }
 .single-post-item.format-image .post-meta .author-img img,
 .single-post-item.format-image .post-meta .blog-category img,
@@ -31008,6 +31018,26 @@
   font-weight: 700;
   font-size: 36px;
   color: #fff;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single-post-item.format-image .post-content-wrapper .post-heading .post-title {
+    font-size: 32px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-post-item.format-image .post-content-wrapper .post-heading .post-title {
+    font-size: 32px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .single-post-item.format-image .post-content-wrapper .post-heading .post-title {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .single-post-item.format-image .post-content-wrapper .post-heading .post-title {
+    font-size: 26px;
+  }
 }
 .single-post-item.format-image .post-content-wrapper .default-single-post-meta {
   padding-top: 40px;
@@ -31120,38 +31150,84 @@
   font-size: 30px;
   font-weight: 700;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single-post-item .post-content p strong {
+    font-size: 26px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-post-item .post-content p strong {
+    font-size: 26px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .single-post-item .post-content p strong {
+    font-size: 24px;
+  }
+}
 .single-post-item .post-content p .imgs {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.single-post-item .post-content ul {
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .single-post-item .post-content p .imgs {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .single-post-item .post-content p .imgs img {
+    max-width: 45%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single-post-item .post-content p .imgs img {
+    max-width: 45%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-post-item .post-content p .imgs img {
+    max-width: 45%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .single-post-item .post-content p .imgs img {
+    max-width: 45%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .single-post-item .post-content p .imgs img {
+    max-width: 100%;
+  }
+}
+.single-post-item ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
-  .single-post-item .post-content ul {
+  .single-post-item ul {
     gap: 20px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
-  .single-post-item .post-content ul {
+  .single-post-item ul {
     gap: 20px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .single-post-item .post-content ul {
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .single-post-item ul {
     gap: 15px;
     grid-template-columns: repeat(1, 1fr);
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .single-post-item .post-content ul {
+  .single-post-item ul {
     gap: 10px;
   }
 }
-.single-post-item .post-content ul li {
+.single-post-item ul li {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -31162,7 +31238,7 @@
   font-size: 16px;
   color: #fff;
 }
-.single-post-item .post-content ul li span {
+.single-post-item ul li span {
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -31257,7 +31333,7 @@
   transition: all 0.4s ease;
 }
 
-blockquote {
+.author-info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -31272,7 +31348,17 @@ blockquote {
   background-color: #0d0d0d;
   border: 1px solid rgba(204, 204, 204, 0.5);
 }
-blockquote .user_profile {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .author-info {
+    padding: 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .author-info {
+    padding: 30px;
+  }
+}
+.author-info .author-thumb {
   width: 88px;
   height: 88px;
   position: relative;
@@ -31282,7 +31368,12 @@ blockquote .user_profile {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-blockquote .user_profile img {
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .author-info .author-thumb {
+    margin: auto;
+  }
+}
+.author-info .author-thumb img {
   width: 100%;
   border-radius: 50%;
   -moz-border-radius: 50%;
@@ -31292,7 +31383,7 @@ blockquote .user_profile img {
   height: 100%;
   object-fit: contain;
 }
-blockquote .user_profile span {
+.author-info .author-thumb span {
   position: absolute;
   bottom: -15px;
   left: 50%;
@@ -31317,17 +31408,47 @@ blockquote .user_profile span {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-blockquote .contains {
+.author-info .author-text {
   width: calc(100% - 90px);
 }
-blockquote h3 {
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .author-info .author-text {
+    width: calc(100% - 50px);
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .author-info .author-text {
+    width: 100%;
+  }
+}
+.author-info h3 {
   font-family: "font2", sans-serif;
   font-weight: 700;
   font-size: 26px;
   text-transform: capitalize;
   color: #fff;
 }
-blockquote p {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .author-info h3 {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .author-info h3 {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .author-info h3 {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .author-info h3 {
+    font-size: 22px;
+  }
+}
+.author-info p {
   font-family: "font1", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -31335,14 +31456,14 @@ blockquote p {
   color: #fff;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  blockquote {
+  .author-info {
     padding: 20px;
     flex-wrap: wrap;
   }
-  blockquote .contains {
+  .author-info .contains {
     width: 100% !important;
   }
-  blockquote .user_profile {
+  .author-info .user_profile {
     width: 100% !important;
   }
 }
@@ -31406,6 +31527,21 @@ blockquote p {
   font-size: 30px;
   text-transform: capitalize;
   color: #fff;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .help_desk .overly h2 {
+    font-size: 26px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .help_desk .overly h2 {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .help_desk .overly h2 {
+    font-size: 22px;
+  }
 }
 
 .pre_next_btn_area {
@@ -31973,6 +32109,11 @@ blockquote p {
   text-transform: capitalize;
   color: #fff;
 }
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .post-comments .name h5 {
+    font-size: 22px;
+  }
+}
 .post-comments .name p {
   font-family: "Manrope", sans-serif;
   font-weight: 500;
@@ -31996,6 +32137,16 @@ blockquote p {
   font-weight: 700;
   font-size: 36px;
   color: #fff;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .post-comments-form .comment-respond h2 {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .post-comments-form .comment-respond h2 {
+    font-size: 26px;
+  }
 }
 .post-comments-form .comment-respond .contacts-name {
   width: 100%;
