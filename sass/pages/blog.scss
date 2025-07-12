@@ -857,20 +857,20 @@
               color: $--white;
               text-transform: capitalize;
           }
-           > .widget{
-              background-color: transparent;
-              width: 100%;
-            // padding: 25px 30px 40px 30px;
-            //   border: 1px solid rgba(204, 204, 204, 0.5);
-              @include border-radius(5px);
-              &.style_1{
-                background-color: $--seven;
-                border: 1px solid transparent;
-              }
-              @include nesthubmax{
-                  padding: 10px;
-              }
-          }
+        //    > .widget{
+        //       background-color: transparent;
+        //       width: 100%;
+        //     // padding: 25px 30px 40px 30px;
+        //     //   border: 1px solid rgba(204, 204, 204, 0.5);
+        //       @include border-radius(5px);
+        //       &.style_1{
+        //         background-color: $--seven;
+        //         border: 1px solid transparent;
+        //       }
+        //       @include nesthubmax{
+        //           padding: 10px;
+        //       }
+        //   }
       }
       .search-form{
         margin-top: 24px;
