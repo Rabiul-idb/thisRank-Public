@@ -31777,6 +31777,8 @@
 .sidebar > .widget {
   width: 100%;
   background-color: transparent;
+  padding: 25px 30px 40px 30px;
+  border: 1px solid rgba(204, 204, 204, 0.5);
 }
 
 .search-form {
@@ -31853,7 +31855,6 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 20px;
 }
 .top_categorie_wrapper .image_title .image {
   width: 85px;
@@ -31885,6 +31886,7 @@
 }
 .top_categorie_wrapper .image_title h4 {
   line-height: 0px;
+  padding-left: 20px;
 }
 .top_categorie_wrapper .image_title h4 a {
   font-family: "font1", sans-serif;

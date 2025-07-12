@@ -860,9 +860,8 @@
             > .widget{
                 width: 100%;
                 background-color: transparent;
-        //       width: 100%;
-        //     // padding: 25px 30px 40px 30px;
-        //     //   border: 1px solid rgba(204, 204, 204, 0.5);
+         padding: 25px 30px 40px 30px;
+           border: 1px solid rgba(204, 204, 204, 0.5);
         //       @include border-radius(5px);
         //       &.style_1{
         //         background-color: $--seven;
@@ -924,7 +923,7 @@
         @include border-radius(5px);
         .image_title{
             @include flex(row, flex-start, center);
-            gap: 20px;
+           
             .image{
                 width: 85px;
                 height: 60px;
@@ -947,6 +946,7 @@
             }
             h4{
                 line-height: 0px;
+                padding-left: 20px;
                 a{
                     font-family: $--font-family;
                     font-weight: 400;
