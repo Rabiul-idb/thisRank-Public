@@ -1651,36 +1651,54 @@
             }
           }
 
+            .text a{
+                font-family: $--font-family;
+                font-weight: 400;
+                font-size: 16px;
+                color: $--white;
+                @include transition(0.4s);
+            
+                    &:hover{
+                        color: $--p5;
+                    }
+            }
+          
+
           .text h4 {
-            font-size: 22px;
+            font-family: $--font-family;
             margin-bottom: 0px;
-            color:  $gray-100;
-            font-weight: 700;
+            color:  $--white;
+            font-weight: 600;
             overflow-wrap: anywhere;
-
-            @include  xl{
-              font-size: 18px;
-            }
-            @include  lg{
-              font-size: 18px;
-            }
-
-            @include  md{
-              font-size: 18px;
-            }
-            @include  sm{
-              font-size: 16px;
-            }
+            
             @include  xxs{
               display: none;
             }
 
             a{          
-              color: $white;
+              color: $--white;
               transition: all 0.3s;
+              font-size: 22px;
+
+              @include  xl{
+              font-size: 18px;
+              }
+              @include  lg{
+                font-size: 18px;
+              }
+
+              @include  md{
+                font-size: 18px;
+              }
+              @include  sm{
+                font-size: 18px;
+              }
+              @include  xs{
+                font-size: 18px;
+              }
 
               &:hover{
-                color:  $primary-color;
+                color:  $--p5;
               }
             }
           }
@@ -1693,17 +1711,17 @@
 
         .divider {
           width: 1px;
-          height: 200px;
+          height: 160px;
           background: rgb(204, 204, 204);
 
           @include xs{
-            height: 150px;
+            height: 120px;
           }
           @include xxs{
-            height: 95px;
+            height: 75px;
           }
         }
-      }
+    }
 
       .author-info{
         background-color:  $primary-color;
@@ -2069,7 +2087,7 @@
           font-size: 16px;
           line-height: 30px;
           margin-bottom: 20px;
-          color: #616670;
+          color: $--white;
 
           a{
             color:  $primary-color;
