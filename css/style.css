@@ -31774,6 +31774,10 @@
   color: #fff;
   text-transform: capitalize;
 }
+.sidebar > .widget {
+  width: 100%;
+  background-color: transparent;
+}
 
 .search-form {
   margin-top: 24px;

@@ -857,8 +857,9 @@
               color: $--white;
               text-transform: capitalize;
           }
-        //    > .widget{
-        //       background-color: transparent;
+            > .widget{
+                width: 100%;
+                background-color: transparent;
         //       width: 100%;
         //     // padding: 25px 30px 40px 30px;
         //     //   border: 1px solid rgba(204, 204, 204, 0.5);
@@ -870,7 +871,7 @@
         //       @include nesthubmax{
         //           padding: 10px;
         //       }
-        //   }
+          }
       }
       .search-form{
         margin-top: 24px;
