@@ -208,9 +208,7 @@ $font-family: "Source Sans 3", sans-serif;
       }
 
       &.format-image{
-        @include xxs{
-          margin-top: 50px;
-        }
+        
         .post-thumbnail {
           a{
             display: block;

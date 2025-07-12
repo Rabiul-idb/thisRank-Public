@@ -32464,11 +32464,6 @@
   border: 1px solid #cda64e;
   border-radius: 6px;
 }
-@media only screen and (min-width: 0px) and (max-width: 479px) {
-  .blog-area .blog-posts .single-post-item.format-image {
-    margin-top: 50px;
-  }
-}
 .blog-area .blog-posts .single-post-item.format-image .post-thumbnail a {
   display: block;
 }
