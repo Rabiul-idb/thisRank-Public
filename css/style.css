@@ -31642,7 +31642,7 @@
 .sidebar > .widget {
   width: 100%;
   background-color: transparent;
-  padding: 25px 30px 40px 30px;
+  padding: 25px 20px;
 }
 
 .widget_top_categorie,
@@ -34685,7 +34685,6 @@ ul.children {
 }
 
 .sidebar {
-  padding: 0 25px;
   border-radius: 20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
