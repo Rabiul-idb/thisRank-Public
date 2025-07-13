@@ -31642,7 +31642,6 @@
 .sidebar > .widget {
   width: 100%;
   background-color: transparent;
-  padding: 25px 20px;
 }
 
 .widget_top_categorie,
@@ -31650,6 +31649,7 @@
 .widget_recent_post,
 .widget_tag_cloud {
   border: 1px solid rgba(204, 204, 204, 0.5);
+  padding: 25px 25px;
 }
 
 .search-form {
