@@ -222,7 +222,7 @@
 					  color: $--white;
 					  display: inline-block;
 					  @include transformY(-50%);
-					  right: 0;
+					  right: 10px;
 					  @include transition(0.4s);
 					  
 				  }

@@ -28469,7 +28469,7 @@
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
-  right: 0;
+  right: 10px;
   transition: all 0.4s ease;
 }
 .header-wrap .main-menu.style_1 ul li.menu-item-has-children:hover::after {
