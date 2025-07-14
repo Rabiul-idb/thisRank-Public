@@ -32628,6 +32628,13 @@
   transition: all 0.5s ease-out;
   text-decoration: underline !important;
 }
+.blog-area .blog-post-items .blog-search-title,
+.blog-area .blog-post-items .page-title {
+  color: #ffffff;
+}
+.blog-area .blog-post-items .blog-search-content p {
+  color: #ffffff;
+}
 
 @keyframes ripple {
   0% {

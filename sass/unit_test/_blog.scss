@@ -413,6 +413,21 @@ $font-family: "Source Sans 3", sans-serif;
       }
     }
   }
+
+  .blog-post-items{
+     
+      .blog-search-title,
+      .page-title{
+        color: $white;
+      }
+
+      .blog-search-content{
+        p{
+          color: $white;
+        }
+      }
+    
+  }
 }
 
 @keyframes ripple {
