@@ -13,7 +13,9 @@ $font-family: "Source Sans 3", sans-serif;
 
 .blog-area{
     
-  .blog-posts {
+  .blog-posts,
+  .blog-post-items {
+
     .single-post-item {
         margin-bottom: 60px;
 
@@ -412,22 +414,20 @@ $font-family: "Source Sans 3", sans-serif;
         }
       }
     }
-  }
 
-  .blog-post-items{
-     
-      .blog-search-title,
-      .page-title{
+    .blog-search-title,
+    .page-title{
+      color: $white;
+      margin-bottom: 30px;
+    }
+  
+    .blog-search-content{
+      p{
         color: $white;
       }
-
-      .blog-search-content{
-        p{
-          color: $white;
-        }
-      }
-    
+    }
   }
+  
 }
 
 @keyframes ripple {
