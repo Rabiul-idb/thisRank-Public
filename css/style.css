@@ -28718,6 +28718,7 @@
 }
 .header-1 .header-wrap .header-right .search_box .search-form {
   background-color: transparent;
+  border: none !important;
 }
 .header-1 .header-wrap .header-right .search_box .search_body {
   display: flex;
