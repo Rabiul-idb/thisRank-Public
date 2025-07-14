@@ -28498,7 +28498,7 @@
   position: relative;
 }
 .header-wrap .main-menu.style_1 ul li.active > a, .header-wrap .main-menu.style_1 ul li.current-menu-ancestor > a {
-  color: var(--p5);
+  color: #cda64e;
 }
 .header-wrap .main-menu.style_1 ul li.dropdown > a {
   padding-right: 30px !important;
