@@ -28496,6 +28496,7 @@
 }
 .header-wrap .main-menu.style_1 ul li.active, .header-wrap .main-menu.style_1 ul li.current-menu-ancestor {
   position: relative;
+  color: #cda64e;
 }
 .header-wrap .main-menu.style_1 ul li.active > a, .header-wrap .main-menu.style_1 ul li.current-menu-ancestor > a {
   color: #cda64e;

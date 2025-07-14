@@ -254,6 +254,7 @@
 				  &.active,
 				  &.current-menu-ancestor {
 					position: relative;
+					color: $--p5;
 					> a {
 					  color: $--p5;
 					}
