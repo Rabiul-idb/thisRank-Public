@@ -28716,6 +28716,9 @@
     display: none;
   }
 }
+.header-1 .header-wrap .header-right .search_box .search-form {
+  background-color: transparent;
+}
 .header-1 .header-wrap .header-right .search_box .search_body {
   display: flex;
   flex-direction: row;
@@ -28739,6 +28742,7 @@
   padding-right: 10px;
   border: none;
   background-color: transparent;
+  color: #181616;
 }
 .header-1 .header-wrap .header-right .search_box .search_body input::placeholder {
   font-family: "font1", sans-serif;
@@ -28766,6 +28770,9 @@
 }
 .header-1 .header-wrap .header-right .search_box .search_body.style_1 {
   border: 1px solid rgba(193, 193, 193, 0.5);
+}
+.header-1 .header-wrap .header-right .search_box .search_body.style_1 input {
+  color: #fff;
 }
 .header-1 .header-wrap .header-right .search_box .search_body.style_1 input::placeholder {
   color: #fff;
