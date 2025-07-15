@@ -34805,7 +34805,7 @@ ul.children {
 @media only screen and (min-width: 0px) and (max-width: 576px) {
   .sidebar {
     margin-top: 52px;
-    padding: 20px;
+    padding: 3px;
   }
 }
 .sidebar .side-section-heading {
