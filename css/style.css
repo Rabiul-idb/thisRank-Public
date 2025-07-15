@@ -28348,6 +28348,9 @@
 .header-wrap .main-menu ul li:first-child a {
   padding-left: 0;
 }
+.header-wrap .main-menu ul li:first-child ul > li > a {
+  padding-left: 24px;
+}
 .header-wrap .main-menu ul li.menu-item-has-children::after {
   content: "\f107";
   font-family: "FontAwesome";

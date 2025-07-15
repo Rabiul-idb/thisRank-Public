@@ -27,6 +27,10 @@
 				a{
 					padding-left: 0;
 				}
+
+				ul> li> a{
+					padding-left: 24px;
+				}
 			}
 			  &.menu-item-has-children{
 				&::after{
