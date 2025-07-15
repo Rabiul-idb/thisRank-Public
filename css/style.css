@@ -25423,10 +25423,11 @@
   color: #fff;
 }
 .top_bar .top_contains ul li a:hover {
-  color: #cda64e;
+  color: white;
+  text-decoration: underline;
 }
 .top_bar .top_contains.style-2 ul > li > a:hover {
-  color: #fff;
+  color: #cda64e;
 }
 
 .logo_card {
@@ -29599,8 +29600,22 @@
 .footer .footer_last_area {
   background-color: #cda64e;
 }
-.footer.style-2 .contact_icon span {
+.footer .contact_card_wrapper .contact_icon span {
   color: #cda64e;
+}
+.footer .social_area ul li a {
+  color: rgba(255, 255, 255, 0.7019607843);
+}
+.footer .social_area ul li a:hover {
+  color: #181616;
+  background-color: #cda64e;
+}
+.footer.style-2 .contact_card_wrapper .contact_icon span {
+  color: #fff;
+}
+.footer.style-2 .social_area ul li a:hover {
+  color: #181616;
+  background-color: #fff;
 }
 
 .faq_section_area {

@@ -23,15 +23,6 @@
 			padding: 0;
 			position: relative;
 
-			// &:first-child{
-			// 	a{
-			// 		padding-left: 0;
-			// 	}
-
-			// 	ul> li> a{
-			// 		padding-left: 24px;
-			// 	}
-			// }
 			  &.menu-item-has-children{
 				&::after{
 				content: "\f107";

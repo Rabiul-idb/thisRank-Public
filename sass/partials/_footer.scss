@@ -286,7 +286,7 @@
         background-color: $--primary;
     }
 
-    &.style-2{
+    .contact_card_wrapper{
         .contact_icon{
                    
             span{
@@ -294,6 +294,33 @@
             } 
             
         }
+    }
+
+    .social_area ul li a {
+        color: $--text2;
+
+        &:hover{
+            color: $--black;
+            background-color: $--p5;
+        }
+    }
+    
+    &.style-2{
+        .contact_card_wrapper{
+            .contact_icon{
+                       
+                span{
+                color: $--white;
+                } 
+                
+            }
+        }
+
+        .social_area ul li a:hover {
+            color: $--black;
+            background-color: $--white;
+        }
+
     }
     
 }
