@@ -29401,6 +29401,9 @@
   transition: all 0.3s ease;
   color: #cda64e;
 }
+.footer .footer_area_quick_menu .quicklink .contact_card_area .contact_card_wrapper {
+  margin-top: 30px;
+}
 .footer .footer_area_quick_menu .quicklink h3 {
   font-family: "font1", sans-serif;
   font-weight: 600;
@@ -29413,8 +29416,8 @@
   font-family: "font1", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  margin-top: 21px;
   color: rgba(255, 255, 255, 0.7019607843);
+  margin-top: 8px;
 }
 .footer .footer_area_quick_menu .quicklink form {
   border: 1px solid rgba(255, 255, 255, 0.1411764706);
