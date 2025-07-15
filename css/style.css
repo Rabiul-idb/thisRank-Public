@@ -25412,7 +25412,7 @@
   -o-transform: translateY(-50%);
   right: 0px;
   width: 1px;
-  height: 20px;
+  height: 16px;
   background-color: #fff;
 }
 .top_bar .top_contains ul li a {
@@ -25423,7 +25423,7 @@
   color: #fff;
 }
 .top_bar .top_contains ul li a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 
 .logo_card {
@@ -25650,7 +25650,7 @@
   }
 }
 .ads_area .ads_image.style_2 .visit a:hover {
-  background-color: #f15025;
+  background-color: #cda64e;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .ads_area .ads_image.style_2 .visit a {
@@ -26004,7 +26004,7 @@
   color: #fff;
 }
 .sidebar_content .latest_post_card.style_02 h4 a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 .sidebar_content .latest_post_card.style_02 .meta_info span {
   color: #fff;
@@ -26061,7 +26061,7 @@
   }
 }
 .sidebar_content .latest_post_card.style_1 a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 .sidebar_content.style_1 {
   padding: 30px 30px 46px 30px;
@@ -26126,7 +26126,14 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
+  background: #fff8e1;
+  border: 1px solid #cda64e;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .trending_now .trending_btn {
@@ -26276,7 +26283,7 @@
   transition: all 0.4s ease;
 }
 .trending_area .trending_card h3 a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .trending_area .trending_card h3 {
@@ -26290,7 +26297,7 @@
   color: #fff;
 }
 .trending_area .trending_card.style_002 h3 a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 .trending_area .trending_card.style_002 .trending_content {
   background-color: #0d0d0d !important;
@@ -26388,7 +26395,7 @@
   color: #fff;
 }
 .trending_area .trending_sidebar .social_media.style_1 h4 a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 .trending_area .trending_sidebar .social_media.style_1 h2 {
   color: #fff;
@@ -26450,7 +26457,7 @@
   transition: all 0.4s ease;
 }
 .trending_area .trending_sidebar h4 a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 .trending_area .trending_sidebar h2 {
   font-family: "font1", sans-serif;
@@ -26539,7 +26546,7 @@
   transition: all 0.4s ease;
 }
 .trending_new_card h4 a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
   .trending_new_card h4 {
@@ -26635,7 +26642,7 @@
   transition: all 0.4s ease;
 }
 .trending_new_card.style_1 h4 a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 .trending_new_card.style_2 {
   gap: 40px;
@@ -26759,7 +26766,7 @@
   transition: all 0.4s ease;
 }
 .trending_new_card.style_2 h4 a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 .trending_new_card.style_2 .trending_contains {
   width: calc(100% - 300px);
@@ -26830,7 +26837,7 @@
   color: #191919;
 }
 .trending_new_card.style_4 .title a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .trending_new_card.style_4 .title a {
@@ -26882,7 +26889,7 @@
   color: #fff;
 }
 .trending_new_card.style_5 .title a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 .trending_new_card.style_6 {
   box-shadow: 0 5px 60px 0 rgba(0, 0, 0, 0.05);
@@ -26956,7 +26963,7 @@
   color: #fff;
 }
 .trending_new_card.style_6 .title a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 .trending_new_card.style_7 {
   box-shadow: 0 5px 60px 0 rgba(0, 0, 0, 0.05);
@@ -27017,7 +27024,7 @@
   }
 }
 .trending_new_card.style_7 .title a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .trending_new_card .image {
@@ -27037,7 +27044,7 @@
   color: #fff;
 }
 .trending_new_card.style_002 h4 a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 .trending_new_card.style_002 .meta_info span {
   color: #fff;
@@ -27053,7 +27060,7 @@
   color: #fff;
 }
 .trending_new_card.style_003 h4 a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 .trending_new_card.style_003 .brand h5 {
   color: #fff;
@@ -27068,7 +27075,7 @@
   color: #fff !important;
 }
 .trending_new_card.style_004 h4 a:hover {
-  color: #f15025 !important;
+  color: #cda64e !important;
 }
 .trending_new_card.style_004 .describtion p {
   color: #fff !important;
@@ -27123,7 +27130,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 28px;
+  gap: 23px;
 }
 .most_recent_area .most_recent_sidebar h3 {
   font-family: "font2", sans-serif;
@@ -27174,7 +27181,7 @@
   padding: 0px 20px;
 }
 .most_recent_area .popular_card .overly:hover a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 .most_recent_area .popular_card .overly h4 a {
   font-family: "font2", sans-serif;
@@ -27312,7 +27319,7 @@
   color: #fff;
 }
 .trending_category.style_1 .category_card h4 a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 .trending_category .left-arrow {
   border: 1px solid #c1c1c1;
@@ -27544,7 +27551,7 @@
   transition: all 0.4s ease;
 }
 .trending_category .category_card h4 a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
   .trending_category .category_card h4 a {
@@ -27773,7 +27780,7 @@
   color: #fff !important;
 }
 .honest_product.style_1 .product_meta h4 a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 .honest_product.style_1 .product_meta span {
   color: #fff !important;
@@ -27968,6 +27975,37 @@
 }
 
 /*--- Subscribe End---*/
+.slick-slide * {
+  user-select: text !important;
+  -webkit-user-select: text !important;
+}
+
+.trending-container {
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+  font-weight: bold;
+}
+
+.trending-wrapper {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+}
+
+.trending-item {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.trending-item a {
+  color: #181616;
+}
+.trending-item a:hover {
+  text-decoration: underline;
+}
+
 .about_thisrank {
   background-color: #191919;
 }
@@ -28308,7 +28346,8 @@
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
-  right: 12px;
+  right: 7px;
+  font-size: 14px;
   transition: all 0.4s ease;
 }
 .header-wrap .main-menu ul li.menu-item-has-children:hover::after {
@@ -28740,10 +28779,16 @@
 .header-1 .header-wrap .header-right .search_box .search_body input {
   max-width: 579px;
   width: 100%;
+  height: 100%;
   outline: none;
   padding-left: 20px;
   padding-right: 10px;
   border: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   background-color: transparent;
   color: #181616;
 }
@@ -28752,6 +28797,9 @@
   font-weight: 400;
   font-size: 16px;
   color: #333;
+}
+.header-1 .header-wrap .header-right .search_box .search_body input:focus {
+  outline: 1px solid #cda64e;
 }
 .header-1 .header-wrap .header-right .search_box .search_body button {
   border: none;
@@ -28769,7 +28817,7 @@
   transition: all 0.4s ease;
 }
 .header-1 .header-wrap .header-right .search_box .search_body button:hover {
-  background-color: #f15025;
+  background-color: #cda64e;
 }
 .header-1 .header-wrap .header-right .search_box .search_body.style_1 {
   border: 1px solid rgba(193, 193, 193, 0.5);
@@ -28880,7 +28928,7 @@
   position: relative;
 }
 .search_card_btn .buy_card span:hover {
-  background-color: #f15025;
+  background-color: #cda64e;
   border: 1px solid transparent;
 }
 
@@ -29240,7 +29288,7 @@
 }
 
 .footer {
-  background: #191919;
+  background: black;
   padding: 0px 20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -29341,7 +29389,7 @@
 }
 .footer .footer_area_quick_menu .quicklink ul li:hover a {
   transition: all 0.3s ease;
-  color: #f15025;
+  color: #cda64e;
 }
 .footer .footer_area_quick_menu .quicklink h3 {
   font-family: "font1", sans-serif;
@@ -29383,7 +29431,7 @@
 .footer .footer_area_quick_menu .quicklink form button {
   width: 124px;
   height: 40px;
-  background-color: #f15025;
+  background-color: #cda64e;
   text-align: center;
   line-height: 40px;
   border: none;
@@ -29423,7 +29471,7 @@
   transition: all 0.4s ease;
 }
 .footer .footer_area_quick_menu .quicklink .social_media ul li a:hover {
-  background-color: #f15025;
+  background-color: #cda64e;
   border: 1px solid transparent;
   color: #fff;
 }
@@ -29501,11 +29549,11 @@
   transition: all 0.4s ease;
 }
 .footer .footer_last .footer_last_menu ul li a:hover {
-  color: #f15025;
+  color: #cda64e;
   margin-bottom: 5px;
 }
 .footer .footer_last_area {
-  background-color: #f15025;
+  background-color: #cda64e;
 }
 
 .faq_section_area {
@@ -29689,7 +29737,7 @@
   transition: all 0.4s ease;
 }
 .contact_card_wrapper .contact_details a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 
 .back_top {
@@ -29711,7 +29759,7 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   cursor: pointer;
-  background-color: #f15025;
+  background-color: #cda64e;
   border: 1px solid transparent;
   color: #fff;
 }
@@ -29892,7 +29940,7 @@
 .play_btn span {
   width: 74px;
   height: 74px;
-  background-color: #f15025;
+  background-color: #cda64e;
   color: #fff;
   display: block;
   border-radius: 50%;
@@ -30142,7 +30190,7 @@
   text-align: center;
   line-height: 46px;
   border-radius: 50%;
-  background-color: #f15025;
+  background-color: #cda64e;
   position: relative;
   z-index: 9;
   cursor: pointer;
@@ -30397,7 +30445,7 @@
   color: rgba(2, 6, 38, 0.8);
 }
 .list_item ul li span {
-  color: #f15025;
+  color: #cda64e;
   margin-right: 6px;
 }
 
@@ -30438,7 +30486,7 @@
 .service_process_area .service_setp .srv_step_border::before {
   font-family: "FontAwesome";
   content: "\f058";
-  color: #f15025;
+  color: #cda64e;
   font-size: 25px;
   position: absolute;
   top: 50%;
@@ -30574,7 +30622,7 @@
   color: #020626;
 }
 .team_member_card .team_card_overly .social_icon a:hover {
-  background-color: #f15025;
+  background-color: #cda64e;
   color: #fff;
 }
 
@@ -30622,7 +30670,7 @@
 .mission_work_area .progress-container .progress-bar .progress-fill {
   height: 100%;
   width: 0;
-  background: #f15025;
+  background: #cda64e;
   position: absolute;
   top: 0;
   left: 0;
@@ -30726,7 +30774,7 @@
   -webkit-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  background-color: #f15025;
+  background-color: #cda64e;
   color: #fff;
   color: #fff;
   transition: all 0.4s ease;
@@ -30810,7 +30858,7 @@
 .skills_area .progress-container .progress-bar .progress-fill {
   height: 100%;
   width: 0;
-  background: #f15025;
+  background: #cda64e;
   position: absolute;
   top: 0;
   left: 0;
@@ -31307,7 +31355,7 @@
   }
 }
 .post-gallery .left-arrow:hover {
-  background-color: #f15025;
+  background-color: #cda64e;
   transition: all 0.4s ease;
 }
 .post-gallery .right-arrow {
@@ -31340,7 +31388,7 @@
   }
 }
 .post-gallery .right-arrow:hover {
-  background-color: #f15025;
+  background-color: #cda64e;
   transition: all 0.4s ease;
 }
 
@@ -31858,7 +31906,7 @@
   transition: all 0.4s ease;
 }
 .recent_post_wrapper h4 a:hover {
-  color: #f15025;
+  color: #cda64e;
 }
 .recent_post_wrapper span {
   font-family: "font1", sans-serif;
@@ -32146,7 +32194,7 @@
   opacity: 0.7;
 }
 .querie button {
-  background-color: #f15025;
+  background-color: #cda64e;
   border: none;
   outline: none;
   width: 100%;
@@ -32159,7 +32207,7 @@
 }
 .querie button:hover {
   background-color: #020626;
-  color: #f15025;
+  color: #cda64e;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -32261,7 +32309,7 @@
 #search .search-body button {
   width: 25%;
   border: none;
-  background-color: #f15025;
+  background-color: #cda64e;
   border-radius: 0 50px 50px 0;
   color: #fff;
   font-family: "font1", sans-serif;

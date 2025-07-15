@@ -254,6 +254,7 @@
             nextArrow:
             "<button type='button' class='post-gallery-btn next-btn'><i class='fa fa-arrow-right'></i></button>",
         });
+  
     });
     
     $(window).on("load", function () {
@@ -265,9 +266,49 @@
             preloader.style.display = "none";
         }, 600);
     });
+
+
+  const wrapper = document.getElementById("wrapper");
+  const container = document.getElementById("trending");
+  const itemHeight = 30;
+  const originalItems = Array.from(wrapper.children);
+  let index = 0;
+  let paused = false;
+
+  // Duplicate items for looping
+  originalItems.forEach(item => {
+    wrapper.appendChild(item.cloneNode(true));
+  });
+
+  function scrollNext() {
+    if (paused) return;
+
+    index++;
+    wrapper.style.transition = 'transform 0.5s ease-in-out';
+    wrapper.style.transform = `translateY(-${index * itemHeight}px)`;
+
+    // If reached the original item count, reset instantly
+    if (index === originalItems.length) {
+      setTimeout(() => {
+        wrapper.style.transition = 'none';
+        wrapper.style.transform = 'translateY(0)';
+        index = 0;
+
+        // Force reflow so transition will work next time
+        void wrapper.offsetWidth;
+        wrapper.style.transition = 'transform 0.5s ease-in-out';
+      }, 500); // match transition time
+    }
+  }
+
+  const interval = setInterval(scrollNext, 2000); // every 2s
+
+  // Pause on hover
+  container.addEventListener('mouseenter', () => paused = true);
+  container.addEventListener('mouseleave', () => paused = false);
+
+
 })(jQuery);
-
-
 
 
 

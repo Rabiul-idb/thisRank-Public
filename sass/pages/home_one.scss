@@ -56,7 +56,7 @@
                     @include transformY(-50%);
                     right: 0px;
                     width: 1px;
-                    height: 20px;
+                    height: 16px;
                     background-color: $--white;
                 }
                 a{
@@ -690,7 +690,10 @@
     .trending_btn{
         @include flex(row, flex-start, center);
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 20px;
+        background: #fff8e1;
+        border: 1px solid $--p5;
+        @include border-radius(5px);
         @include sm{
             gap: 10px !important;
         }
@@ -820,8 +823,7 @@
             a{
                 font-family: $--third-family;
                 font-weight: 700;
-                font-size: 26px;
-                
+                font-size: 26px;                
                 text-transform: capitalize;
                 color: #0a1117;
                 @include transition(0.4s);
@@ -1587,7 +1589,7 @@
         .row{
             &.style_1{
                 @include flex(column, center, center);
-                gap: 28px;
+                gap: 23px;
             }
         }
         h3{
@@ -2308,3 +2310,49 @@
     }
 }
 /*--- Subscribe End---*/
+
+
+
+
+.slick-slide * {
+  user-select: text !important;
+  -webkit-user-select: text !important;
+}
+
+////////////////////////////
+/// 
+/// 
+/// 
+
+.trending-container {
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+  font-weight: bold;
+}
+
+.trending-wrapper {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+}
+
+.trending-item {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+
+  a{
+    color: $--black;
+
+    &:hover{
+        text-decoration: underline;
+    }
+  }
+}
+
+
+
+
+
