@@ -22,6 +22,12 @@
 			display: inline-block;
 			padding: 0;
 			position: relative;
+
+			&:first-child{
+				a{
+					padding-left: 0;
+				}
+			}
 			  &.menu-item-has-children{
 				&::after{
 				content: "\f107";
@@ -45,7 +51,7 @@
                 -moz-transform: rotate(180deg);
                 -ms-transform: rotate(180deg);
                 -o-transform: rotate(180deg);
-              }
+            }
     }
 
 			  }

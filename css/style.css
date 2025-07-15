@@ -26137,6 +26137,7 @@
   -webkit-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  padding-left: 0;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .trending_now .trending_btn {
@@ -28344,6 +28345,9 @@
   padding: 0;
   position: relative;
 }
+.header-wrap .main-menu ul li:first-child a {
+  padding-left: 0;
+}
 .header-wrap .main-menu ul li.menu-item-has-children::after {
   content: "\f107";
   font-family: "FontAwesome";
@@ -29395,7 +29399,7 @@
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 15px;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7019607843);
 }
 .footer .footer_area_quick_menu .quicklink ul li:hover a {
   transition: all 0.3s ease;
@@ -29411,7 +29415,7 @@
   margin-top: 0;
 }
 .footer .footer_area_quick_menu .quicklink .contact_card_area .contact_card_wrapper p {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7019607843);
 }
 .footer .footer_area_quick_menu .quicklink h3 {
   font-family: "font1", sans-serif;
@@ -29496,6 +29500,12 @@
   background-color: #cda64e;
   border: 1px solid transparent;
   color: #fff;
+}
+.footer .contact_card_wrapper .contact_details h5 {
+  color: rgba(255, 255, 255, 0.7019607843);
+}
+.footer .contact_card_wrapper .contact_details a {
+  color: rgba(255, 255, 255, 0.7019607843);
 }
 .footer .footer_last {
   padding-bottom: 20px;
@@ -29591,6 +29601,9 @@
 }
 .footer .footer_last_area {
   background-color: #cda64e;
+}
+.footer.style-2 .contact_icon span {
+  color: #cda64e;
 }
 
 .faq_section_area {
