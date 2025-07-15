@@ -88,6 +88,10 @@
                 .contact_card_area{
                     .contact_card_wrapper{
                         margin-top: 30px;
+
+                        &:first-child{
+                            margin-top: 0;
+                        }
                     }
                 }
             

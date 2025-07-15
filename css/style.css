@@ -29404,6 +29404,9 @@
 .footer .footer_area_quick_menu .quicklink .contact_card_area .contact_card_wrapper {
   margin-top: 30px;
 }
+.footer .footer_area_quick_menu .quicklink .contact_card_area .contact_card_wrapper:first-child {
+  margin-top: 0;
+}
 .footer .footer_area_quick_menu .quicklink h3 {
   font-family: "font1", sans-serif;
   font-weight: 600;
