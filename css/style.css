@@ -25425,6 +25425,9 @@
 .top_bar .top_contains ul li a:hover {
   color: #cda64e;
 }
+.top_bar .top_contains.style-2 ul > li > a:hover {
+  color: #fff;
+}
 
 .logo_card {
   padding: 23px 30px;
@@ -26164,6 +26167,13 @@
 .trending_now .trending_btn button.active {
   color: #fff;
   background-color: #cda64e;
+}
+.trending_now .trending_btn.style-2 {
+  background-color: transparent;
+  border: none;
+}
+.trending_now .trending_btn.style-2 .trending-item a {
+  color: #fff;
 }
 .trending_now .left_right_arrow {
   display: flex;
@@ -28508,7 +28518,7 @@
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
-  right: 10px;
+  right: 7px;
   transition: all 0.4s ease;
 }
 .header-wrap .main-menu.style_1 ul li.menu-item-has-children:hover::after {
@@ -29527,7 +29537,7 @@
   justify-content: flex-end;
   align-items: flex-end;
   margin: 0px;
-  gap: 20px;
+  gap: 30px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .footer .footer_last .footer_last_menu ul {
@@ -29539,6 +29549,21 @@
   text-align: left;
   width: 100%;
   width: fit-content !important;
+  position: relative;
+}
+.footer .footer_last .footer_last_menu ul li::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  right: -15px;
+  width: 1px;
+  height: 16px;
+  background-color: #fff;
+}
+.footer .footer_last .footer_last_menu ul li:last-child::after {
+  display: none;
 }
 .footer .footer_last .footer_last_menu ul li a {
   font-family: "font1", sans-serif;

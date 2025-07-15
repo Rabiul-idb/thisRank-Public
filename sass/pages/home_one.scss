@@ -71,6 +71,12 @@
                 }
             }
         }
+
+        &.style-2{
+            ul > li > a:hover{
+                color: $--white;
+            }
+        }
         
     }
 }
@@ -715,6 +721,17 @@
                 color: $--white;
                 background-color: $--p5;
 
+            }
+        }
+
+        &.style-2{
+            background-color: transparent;
+            border: none;
+
+            .trending-item{
+                a{
+                    color: $--white
+                }
             }
         }
     }
