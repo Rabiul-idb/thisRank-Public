@@ -28255,6 +28255,10 @@
   font-weight: 400;
   font-size: 16px;
   color: #fff;
+  transition: all 0.3s;
+}
+.contact_info_wrapper .contact_info a:hover {
+  color: #cda64e;
 }
 .contact_info_wrapper .contact_info span {
   width: 57px;
